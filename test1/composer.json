@@ -1,0 +1,22 @@
+{
+    "description": "PHP aptitude assessment",
+
+    "authors" : [
+        {
+            "name": "Axel Cho",
+            "email": "axel.c@aet.dev",
+            "role": "senior developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Parser\\": "src/",
+            "ParserTest\\": "test/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    }
+}
