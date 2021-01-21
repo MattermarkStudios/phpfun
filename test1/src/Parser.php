@@ -30,6 +30,8 @@ class Parser
     public static function sortDate(array $a, array $b): int
     {
         //a sorter to put inside the usort. This should return -1, 0, 1
+        //assume that the arrays would have keys "creation_date"
+
         return $sort;
     }
 
