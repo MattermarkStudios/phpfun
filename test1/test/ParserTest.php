@@ -164,6 +164,8 @@ class ParserTest extends TestCase
 
         static::assertIsArray($parsed);
 
+        array_pop($parsed);
+        array_pop($parsed);
         $first = array_pop($parsed);
 
         static::assertIsArray($first);
